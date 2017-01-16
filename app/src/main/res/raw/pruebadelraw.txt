@@ -1,0 +1,1 @@
+Esto es una prueba para ver si funciona la lectura del fichero raw
