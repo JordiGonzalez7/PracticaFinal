@@ -54,4 +54,6 @@
     <string name="nombre_del_fichero">Nombre del Fichero:</string>
     <string name="texto_del_fichero">Texto del Fichero:</string>
     <string name="startactivityforresult">StartActivityForResult</string>
+    <string name="marca2">Marca:</string>
+    <string name="tipo2">Tipo:</string>
 </resources>
