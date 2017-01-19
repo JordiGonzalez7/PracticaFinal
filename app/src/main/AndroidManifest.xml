@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jordi.practicafinal">
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
-    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -39,10 +38,10 @@
 
             <category android:name="android.intent.category.LAUNCHER" />
         </activity>
-        <activity android:name=".SQLite.ProductosSQLiteOpenHelper" />
         <activity android:name=".memorias.Memorias" />
         <activity android:name=".memorias.Memorias2" />
-        <activity android:name=".memorias.MemoriaRaw"></activity>
+        <activity android:name=".memorias.MemoriaRaw" />
+        <activity android:name=".StartActivityForResult.StartActivityFor"></activity>
     </application>
 
 </manifest>

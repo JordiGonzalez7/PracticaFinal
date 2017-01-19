@@ -54,6 +54,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/ficheros" />
+
+            <Button
+                android:text="@string/startactivityforresult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/safr" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

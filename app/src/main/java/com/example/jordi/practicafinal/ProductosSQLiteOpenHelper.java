@@ -1,4 +1,4 @@
-package com.example.jordi.practicafinal.SQLite;
+package com.example.jordi.practicafinal;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

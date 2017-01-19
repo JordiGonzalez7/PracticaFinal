@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.jordi.practicafinal.ProductosSQLiteOpenHelper;
 import com.example.jordi.practicafinal.R;
 
 public class ActivitySql2 extends AppCompatActivity {
