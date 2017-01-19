@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jordi.practicafinal.SQLite.ActivitySql;
+import com.example.jordi.practicafinal.StartActivityForResult.StartActivityFor;
 import com.example.jordi.practicafinal.calculadoraShared.SharedPrefs;
 import com.example.jordi.practicafinal.intents.intent1;
 import com.example.jordi.practicafinal.memorias.Memorias;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         Button btn2 = (Button)findViewById(R.id.shared);
         Button btn3 = (Button)findViewById(R.id.sql);
         Button btn4 = (Button)findViewById(R.id.ficheros);
+        Button btn5 = (Button)findViewById(R.id.safr);
 
         btn.setOnClickListener(new View.OnClickListener(){
 
@@ -70,6 +72,14 @@ public class MainActivity extends AppCompatActivity {
             }
 
 
+        });
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (v.getContext(),StartActivityFor.class);
+                startActivityForResult(intent, 0);
+            }
         });
 
 

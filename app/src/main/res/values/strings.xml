@@ -56,4 +56,7 @@
     <string name="startactivityforresult">StartActivityForResult</string>
     <string name="marca2">Marca:</string>
     <string name="tipo2">Tipo:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="datos">Datos</string>
 </resources>

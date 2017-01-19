@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_for2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jordi.practicafinal.StartActivityForResult.StartActivityFor2">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etxt"
+        android:hint="@string/datos" />
+
+    <Button
+        android:text="@string/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/good"
+        android:layout_alignBaseline="@+id/bad"
+        android:layout_alignBottom="@+id/bad"
+        android:layout_toEndOf="@+id/bad" />
+
+    <Button
+        android:text="@string/cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bad"
+        android:layout_marginStart="71dp"
+        android:layout_below="@+id/etxt"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
